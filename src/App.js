@@ -1,4 +1,7 @@
 
+import {useEffect, useState} from 'react';
+
+
 import './App.css';
 import Navbar from './components/Navbar';
 import BringToTop from './components/BringToTop';
@@ -9,9 +12,18 @@ import Projects from './components/Projects/Projects';
 import Resume from './components/Resume/Resume';
 
 function App() {
+  const [load, setLoad] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoad(false);
+    }, 2000);
+
+    return () => { clearTimeout(timer)};
+  }, []);
+
   return (
     <div>
-      <PreLoader />
+      <PreLoader isLoading={load}/>
       <div>
         <Navbar />
         <BringToTop />

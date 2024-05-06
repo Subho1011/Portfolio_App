@@ -1,7 +1,8 @@
 
-const PreLoader = () => {
+
+const PreLoader = ({isLoading}) => {
   return(
-    <div>Hello from PreLoader</div>
+    <div className={isLoading ? 'loader' : 'no-loader'}></div>
   );
 }
 
