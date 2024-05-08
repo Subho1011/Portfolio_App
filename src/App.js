@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
+
 import './App.css';
 import NavBar from './components/Navbar';
 import BringToTop from './components/BringToTop';

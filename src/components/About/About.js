@@ -1,6 +1,6 @@
 
 const About = () => {
-  return (
+  return(
     <div>Hello from About.js</div>
   );
 }
