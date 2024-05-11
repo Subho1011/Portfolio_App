@@ -1,3 +1,9 @@
+:root{
+  --primary-color: #842222;
+  --secondary-color: #c06a6a;
+}
+
+
 /* .App {
   text-align: center;
 }
@@ -87,4 +93,30 @@
   background-color: black;
   width: 100% !important;
   height: 56px;
+ 
 }
+
+/*Home Page*/
+
+.home{
+  background-image: linear-gradient(rgba(34,34,34,0.6), rgba(34,34,34,0.6)), url(./Assests/Home-Page-Background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 100px;
+}
+
+.image{
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  border: 7px solid var(--primary-color);
+  background-color: white;
+  background-image: url(./Assests/Me.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
