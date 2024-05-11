@@ -1,7 +1,9 @@
 
 
 const Projects = () => {
-  return (
+
+  return(
+
     <div>Hello from Projects</div>
   );
 }
