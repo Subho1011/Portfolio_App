@@ -86,13 +86,14 @@
   height: 30px;
 } */
 
+
 /* Footer Section*/
 
 .footer{
   background-color: black;
   width: 100% !important;
   height: 56px;
-  
+ 
 }
 
 /*Home Page*/
@@ -118,3 +119,4 @@
   background-repeat: no-repeat;
   background-size:cover;
 }
+

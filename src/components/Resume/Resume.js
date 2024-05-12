@@ -1,6 +1,8 @@
 
 const Resume = () => {
-  return (
+
+  return(
+
     <div>Hello from Resume</div>
   );
 }
