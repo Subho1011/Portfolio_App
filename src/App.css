@@ -120,3 +120,17 @@
   background-size:cover;
 }
 
+
+/*Project Page*/
+
+.project-card {
+  height: 500px ;
+  width: 500px;
+  margin: 50px;
+}
+
+.card-img{
+  height: fit-content;
+  width: fit-content;
+}
+
