@@ -86,13 +86,14 @@
   height: 30px;
 } */
 
+
 /* Footer Section*/
 
 .footer{
   background-color: black;
   width: 100% !important;
   height: 56px;
-  
+ 
 }
 
 /*Home Page*/
@@ -119,6 +120,7 @@
   background-size:cover;
 }
 
+
 /*Project Page*/
 
 .project-card {
@@ -131,3 +133,4 @@
   height: fit-content;
   width: fit-content;
 }
+

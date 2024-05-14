@@ -20,6 +20,7 @@ const projectCards = [
 ];
 
 const Projects = () => {
+
   return (
     <Container style={{height:'100vh',}}>
       <Row>
@@ -33,7 +34,7 @@ const Projects = () => {
         ))}
       </Row>
     </Container>
-
+ 
   );
 }
 
