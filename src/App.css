@@ -64,18 +64,28 @@
  }
 
  /*Navbar Section*/
-/* .navbar{
+.nav-bar{
   display: flex;
-   background-color: black; 
-  height: 50px;
-  font-size: 24px;
+  background-color: black; 
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  font-size: 2.4rem;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1rem;
+  z-index: 99;
 }
 
-.navbar-nav{
+.nav-bar-brand{
+  font-size: 2.4rem !important;
+}
+
+.nav-bar-link{
   display: flex;
-  gap:30px;
+  gap:10rem;
   justify-content: space-around;
   align-items: center;
 }
@@ -84,7 +94,7 @@
   display: block;
   width: 30px;
   height: 30px;
-} */
+}
 
 /* Footer Section*/
 

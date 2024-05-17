@@ -13,6 +13,7 @@ import Resume from './components/Resume/Resume';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function App() {
   const [load, setLoad] = useState(true);
   useEffect(() => {
@@ -34,9 +35,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>}/>
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
-        <Footer/>
+    
+        <Footer />
       </div>
     </Router>
   );
