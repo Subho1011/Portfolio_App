@@ -6,8 +6,8 @@ import { CgFileDocument } from "react-icons/cg";
 const NavBar = () => {
   return (
     <Navbar expand="md" bg="dark" data-bs-theme="dark" className="nav-bar">
-      <Container>
-        <Navbar.Brand href="/" className="nav-bar-brand">Brand</Navbar.Brand>
+      <Container >
+        <Navbar.Brand href="/" >Brand</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto nav-bar-link">
