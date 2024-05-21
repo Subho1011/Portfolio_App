@@ -91,8 +91,40 @@
 .footer{
   background-color: black;
   width: 100% !important;
-  height: 56px;
-  
+  align-items: center !important;
+}
+
+.footer .row .col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col{
+  text-align: center;
+}
+
+.col span{
+  font-size: 1rem;
+}
+
+.footer-icon-list{
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  list-style-type: none;
+  background-color: black;
+}
+
+.footer-icon-list li a{
+  font-size: 1.5rem;
+}
+
+@media(max-width:992px){
+  .footer .row{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*Home Page*/

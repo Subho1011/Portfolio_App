@@ -15,7 +15,7 @@ const Footer = () => {
           <span style={{ color: "white" }}>Copyright © {2024}</span>
         </Col>
         <Col>
-          <ul style={{ display: 'flex', gap: "20px", listStyleType: 'none', backgroundColor: "black", }}>
+          <ul className='footer-icon-list' style={{backgroundColor: 'black',}}>
             <li>
               <a href="https://github.com/Subho1011" target="blank" style={{ color: "white", }}><AiFillGithub /></a>
             </li>
