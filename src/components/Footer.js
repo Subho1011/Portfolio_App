@@ -5,6 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
 
+  const date = new Date();
   return (
     <Container fluid className='footer'>
       <Row>
@@ -12,7 +13,7 @@ const Footer = () => {
           <span style={{ color: "white" }}>Designed and developed by Subhabrata Ghoshal</span>
         </Col>
         <Col>
-          <span style={{ color: "white" }}>Copyright © {2024}</span>
+          <span style={{ color: "white" }}>Copyright © <span data-testid="year">{date.getFullYear()}</span></span>
         </Col>
         <Col>
           <ul className='footer-icon-list' style={{backgroundColor: 'black',}}>
