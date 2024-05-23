@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram, AiOutlineTwitter, AiFillLinkedin } from "react-icons/ai";
 import { Button } from "react-bootstrap";
+import Typing from "./Typing";
 
 const Home = () => {
   return (
@@ -11,32 +12,34 @@ const Home = () => {
           <div className="image"></div>
         </Col>
         <Col>
-          <Row>
+          <Row style={{textAlign:'center', marginBottom:'1rem',}}>
             <h1>Hi there</h1>
-            <h1>I am Mr Subhabrata Ghoshal</h1>
-            <p>Web developer. Software Engineer.</p>
+            <h1>I am Subhabrata</h1>
           </Row>
-          <Row>
+          <Row style={{textAlign:'center', marginBottom:'2rem', fontSize:'2.4rem'}}>
+          <Typing/>
+          </Row>
+          <Row className='button-container'>
             <Button style={{width:"25%", marginRight:"25px"}}>About Me</Button>
             <Button style={{width:"25%",}}>Download CV</Button>
           </Row>
-          <Row>
+          <Row style={{textAlign:'center',}}>
             <h1>Find me on</h1>
-            <ul style={{display:"flex",listStyleType:"none",gap:"25px",}}>
+            <ul className="icons-list">
               <li>
-                <a><AiFillGithub /></a>
+                <a href="https://github.com/Subho1011" target="blank" ><AiFillGithub /></a>
               </li>
 
               <li>
-                <a><AiFillInstagram /></a>
+                <a href="https://www.instagram.com/fitcoach_subho/" target="blank"><AiFillInstagram /></a>
               </li>
 
               <li>
-                <a><AiOutlineTwitter /></a>
+                <a href="https://twitter.com/Subha101196" target="blank"><AiOutlineTwitter /></a>
               </li>
 
               <li>
-                <a><AiFillLinkedin /></a>
+                <a href="https://www.linkedin.com/in/subhabrata-ghoshal-693998157/" target="blank"><AiFillLinkedin /></a>
               </li>
             </ul>
           </Row>
