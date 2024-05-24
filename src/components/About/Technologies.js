@@ -1,30 +1,45 @@
 import React from 'react';
 import { DiAndroid, DiReact, DiJavascript, DiJava, DiGit, DiHtml5, DiCss3 } from 'react-icons/di';
 import { Row, Col } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 const Technologies = () => {
   return (
-    <Row>
+    <Row className="tech-card-container">
       <Col>
-        <DiAndroid />
+        <Card border="info" className='tech-card'>
+          <DiAndroid />
+        </Card>
       </Col>
       <Col>
-        <DiReact />
+        <Card border="info" className='tech-card'>
+          <DiReact />
+        </Card>
       </Col>
       <Col>
-        <DiJavascript />
+        <Card border="info" className='tech-card'>
+          <DiJavascript  />
+        </Card>
       </Col>
       <Col>
-        <DiJava />
+        <Card border="info" className='tech-card'>
+          <DiJava />
+        </Card>
       </Col>
       <Col>
-        <DiGit />
+        <Card border="info" className='tech-card'>
+          <DiGit />
+        </Card>
       </Col>
       <Col>
-        <DiHtml5 />
+        <Card border="info" className='tech-card'>
+          <DiHtml5  />
+        </Card>
       </Col>
       <Col>
-        <DiCss3 />
+        <Card border="info" className='tech-card'>
+          <DiCss3 />
+        </Card>
       </Col>
     </Row>
   );
